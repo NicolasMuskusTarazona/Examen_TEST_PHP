@@ -15,7 +15,9 @@ use App\Handler\CustomErrorHandler;
 use Slim\Handlers\ErrorHandler;
 use Slim\Interfaces\ErrorHandlerInterface;
 
-use App\Infrastructure\Repositories\EloquentHistoriaGeneticaRepository;
+// Facciones
+use App\Domain\Repositories\FaccionesRepositoryInterface;
+use App\Infrastructure\Repositories\EloquentFaccionesRepository;
 $container = new Container();
 
 // 1. User
@@ -23,7 +25,10 @@ $container->set(UserRepositoryInterface::class,function(){
     return new EloquentUserRepository();
 });
 
-
+// 2. Facciones
+$container->set(FaccionesRepositoryInterface::class,function(){
+    return new EloquentFaccionesRepository();
+});
 // Manejo de Errores
 $container->set(ErrorHandlerInterface::class, function () use ($container){
     return new CustomErrorHandler(
