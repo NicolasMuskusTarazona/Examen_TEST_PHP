@@ -106,7 +106,7 @@ if ($rawData !== false) {
 </head>
 <body>
     <header>
-        <h1>Miembros HCF</h1>
+        <h1>Miembros ADMIN HCF</h1>
         <nav>
             <a href="./faccionesAdmin.php">Facciones</a>
             <a href="./miembrosAdmin.php">Miembros</a>

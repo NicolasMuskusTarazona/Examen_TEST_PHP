@@ -102,7 +102,7 @@ if ($rawData !== false) {
 
 <head>
     <meta charset="UTF-8">
-    <title>Facciones - HCF</title>
+    <title>Facciones ADMIN - HCF</title>
     <link rel="stylesheet" href="./style/facciones.css">
 </head>
 
@@ -110,11 +110,11 @@ if ($rawData !== false) {
     <header>
         <h1>Facciones HCF</h1>
         <nav>
-            <a href="./productos.php">Facciones</a>
-            <a href="./miembros.php">Miembros</a>
-            <a href="./claims.php">Claims</a>
-            <a href="./invitaciones.php">Invitaciones</a>
-            <a href="./eventos.php">Eventos</a>
+            <a href="./productosAdmin.php">Facciones</a>
+            <a href="./miembrosAdmin.php">Miembros</a>
+            <a href="./claimsAdmin.php">Claims</a>
+            <a href="./invitacionesAdmin.php">Invitaciones</a>
+            <a href="./eventosAdmin.php">Eventos</a>
         </nav>
     </header>
 

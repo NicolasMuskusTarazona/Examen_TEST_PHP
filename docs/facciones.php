@@ -35,7 +35,7 @@ if ($rawData !== false) {
     <header>
         <h1>Facciones HCF</h1>
         <nav>
-            <a href="./productos.php">Facciones</a>
+            <a href="./facciones.php">Facciones</a>
             <a href="./miembros.php">Miembros</a>
             <a href="./claims.php">Claims</a>
             <a href="./invitaciones.php">Invitaciones</a>
