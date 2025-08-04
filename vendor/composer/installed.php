@@ -3,7 +3,7 @@
         'name' => 'adds/api-basic-slim',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '267e0ac7e64f578a46f2b8e0763e171d7c15b4b0',
+        'reference' => 'a023aee8a85e0580f71f44bce99d91b89f999c50',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'adds/api-basic-slim' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '267e0ac7e64f578a46f2b8e0763e171d7c15b4b0',
+            'reference' => 'a023aee8a85e0580f71f44bce99d91b89f999c50',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
