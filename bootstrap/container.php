@@ -18,6 +18,10 @@ use Slim\Interfaces\ErrorHandlerInterface;
 // Facciones
 use App\Domain\Repositories\FaccionesRepositoryInterface;
 use App\Infrastructure\Repositories\EloquentFaccionesRepository;
+
+// Miembros
+use App\Domain\Repositories\MiembrosRepositoryInterface;
+use App\Infrastructure\Repositories\EloquentMiembrosRepository;
 $container = new Container();
 
 // 1. User
@@ -28,6 +32,11 @@ $container->set(UserRepositoryInterface::class,function(){
 // 2. Facciones
 $container->set(FaccionesRepositoryInterface::class,function(){
     return new EloquentFaccionesRepository();
+});
+
+// 2. Miembros
+$container->set(MiembrosRepositoryInterface::class,function(){
+    return new EloquentMiembrosRepository();
 });
 // Manejo de Errores
 $container->set(ErrorHandlerInterface::class, function () use ($container){

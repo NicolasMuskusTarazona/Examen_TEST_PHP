@@ -32,4 +32,6 @@ $errorHanlder->setDefaultErrorHandler($container->get(ErrorHandlerInterface::cla
 // Ejecutando los script de routes/
 (require_once 'routes/users.php')($app);
 (require_once 'routes/facciones.php')($app);
+(require_once 'routes/miembros.php')($app);
+
 $app->run();
